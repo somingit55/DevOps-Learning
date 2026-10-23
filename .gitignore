@@ -1,0 +1,59 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials and configuration
+.aws/
+.aws-credentials
+credentials
+config
+
+# SSH private keys and certificates
+*.pem
+*.key
+*.ppk
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
