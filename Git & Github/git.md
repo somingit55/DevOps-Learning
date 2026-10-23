@@ -52,12 +52,11 @@
 #### git branch
 - List of Branches
 - *dev means currently you are in dev branch 
-- main
 
 #### git branch --show current
 - Only Shows current working branch
 
-### Currently I am working in "dev" branch i have saved all my work on dev branch & pushed it to the dev branch on Github
+### Currently I am working in "dev" branch and saving all my work through git, add , commits, push commands. 
 
 - git branch --show current
 - git status
