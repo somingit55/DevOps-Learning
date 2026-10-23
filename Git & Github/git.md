@@ -51,13 +51,12 @@
 
 #### git branch
 - List of Branches
-- * dev (*) means currently you are in dev branch 
-- main
+- *dev means currently you are in dev branch 
 
 #### git branch --show current
 - Only Shows current working branch
 
-### Currently I am working in "dev" Branch all works add , commit , push , Pull Request (PR), merge from this branch to another "main" branch
+### Currently I am working in "dev" branch and saving all my work through git, add , commits, push commands. 
 
 - git branch --show current
 - git status
@@ -65,17 +64,13 @@
 - git commit -m "Commit Message"
 - git push origin dev
 
-- Note: I have saved all my work on dev branch & pushed it to the dev branch on Github
+- I have saved all my work on dev branch & pushed it to the dev branch on Github
 
-### Now we will merge "dev" into "main" branch
+### How can I merge Dev and Main Branch on Github using Pull Request listed below:
 
-## Now How can I merge Dev and Main Branch on Github listed below:
-
-- Goto github current repository create Pull Request (PR) & New Pull Request
-- Select branches: Base->> main   Compare->> dev
-- Click on create Pull Request & Set Title , Name & Description
+- Goto GitHub Repository and Click on Compare & Pull Request
+- Select branches: Base->> main Compare->> dev
+- Set Title Name & Description & click on Create Pull Request
 - Click on Merge Pull Request & Confirm Merge Request
-#### git switch main
 - Switching branch into main
-#### git pull origin main
-- Fetches the latest changes from the remote GitHub main branch and integrates them into your current local branch.
+- git pull origin main
