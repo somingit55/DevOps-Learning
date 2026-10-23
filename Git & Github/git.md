@@ -25,6 +25,9 @@
 #### git status
 - Shows the current state of your working directory and staging area, including untracked, modified, and staged files.
 
+### git commit -a -m "Commit Message"
+- Automatically stages and commits changes to already-tracked files, but does not include new untracked files.
+
 #### git remote -v
 - Displays the URLs of the remote repositories configured for your local Git repository.
 
@@ -37,7 +40,6 @@
 - .  — Represents the current directory and its eligible changes.
 - origin — The conventional nickname for a remote repository.
 - main — The name of the Git branch.
-- git commit -a -m "message" — Automatically stages and commits changes to already-tracked files, but does not include new untracked files.
 - git push — Uploads local commits to a remote repository, such as GitHub.
 - git pull — Downloads and integrates changes from a remote repository into your current local branch.
 
@@ -55,6 +57,21 @@
 
 #### git branch --show current
 - Only Shows current working branch
+
+### git fetch origin
+- Downloads the latest commits and branch information from GitHub without changing your local files.
+
+### git diff main dev
+- Shows the file content differences between the local main and dev branches.
+
+### git log --oneline main..dev
+- Shows commits present in dev but not in main.
+
+### git log --oneline dev..main
+- Shows commits present in main but not in dev.
+
+#### git log --oneline
+- Shows the commit history of the current branch in a short, one-line format for each commit.
 
 ### Currently I am working in "dev" branch and saving all my work through git, add , commits, push commands. 
 
