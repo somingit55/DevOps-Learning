@@ -85,7 +85,7 @@
 - As the name suggests this folder contains everything needed to start Linux. The **Linux Kernel, Boot loader files and startup configuration files** all live here.
 - Without these files your operating system would not be able to boot.
 
-#### Don't memorise names group them by purpose
+### Don't memorise names group them by purpose
 
 - **User Files** - /home
 - **Programs**   - /bin /sbin /usr
@@ -93,8 +93,7 @@
 - **Shared Libraries** - /lib
 - **Logs and Changing Data** - /var
 - **Temporary Files** - /tmp
-- Hardware Devices** - /dev
+- **Hardware Devices** - /dev
 - **System Information** - /proc
 - **Boot Files** - /boot
 - **External Storage** - /media /mnt
-
